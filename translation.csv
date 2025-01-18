@@ -1,0 +1,26 @@
+key,en,ua
+window_sase_size,Window Base Size,Основний розмір
+window_stretch_mode,Window Stretch Mode,Режим розтягнення
+window_stretch_aspect,Window Stretch Aspect,Розтягнутий аспект
+window_scale_factor,Window Scale Factor,Коефіцієнт масштабування
+window_stretch_scale_mode,Window Stretch Scale Mode,Режим масштабування
+gui_max_aspect_ratio,GUI Max Aspect Ratio,Максимальний аспект
+gui_margin,GUI Margin,Відступ
+quit_game,Quit Game,Вийти
+apply,Apply,Застосувати
+disabled,Disabled,Вимкнено
+canvas_items_2d,Canvas Items (2D),Елементи Canvas (2D)
+viewport,Viewport,Відображення
+ignore,Ignore,Ігнорувати
+keep,Keep,Залишити
+save,Save,Зберегти
+language,Language,Мова
+EN,English,Англійська
+UA,Ukrainian,Українська
+keep_width,Keep Width,Залишити ширину
+keep_height,Keep Height,Залишити висоту
+expand,Expand,Розтягнути
+fractional,Fractional,Дробовий
+integer,Integer,Цілочисельний
+fit_to_window,Fit to Window,Підходити до вікна
+options,Options,Налаштування
