@@ -19,6 +19,9 @@ func apply(viewport):
 	
 func change_content_scale_aspect(stretch_aspect):
 	set_vp('content_scale_aspect',stretch_aspect)
+	
+func change_content_scale_stretch(scale_stretch):
+	set_vp('content_scale_stretch',scale_stretch,"stretch_mode")
 
 func change_lang(lang:String):
 	var locale = lang.to_lower()
@@ -32,12 +35,15 @@ func change_scale_factor(scale_factor):
 func change_full_screen(is_fullscreen):
 	if(is_fullscreen == true):
 		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN)
+		Input.set_mouse_mode(Input.MOUSE_MODE_CONFINED)
 	else:
 		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED)
 	set_user_option("is_fullscreen",is_fullscreen)
 	
+	
 func change_content_scale_size(base_window_size:Vector2i):
 	set_vp("content_scale_size",base_window_size)
+	Input.warp_mouse(base_window_size)
 	set_user_option("window_width",base_window_size[0])
 	set_user_option("window_height",base_window_size[1])
 	

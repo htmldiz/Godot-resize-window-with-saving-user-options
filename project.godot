@@ -42,11 +42,12 @@ InitLoader="*res://initLoader.gd"
 [display]
 
 window/size/viewport_width=648
-window/size/window_width_override=1152
-window/size/window_height_override=648
+window/size/resizable=false
+window/size/extend_to_title=true
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 window/handheld/orientation="sensor"
+mouse_cursor/custom_image="res://Images/pointer_c.png"
 
 [gui]
 
@@ -60,4 +61,5 @@ locale/translations=PackedStringArray("res://translation.en.translation", "res:/
 
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+camera/depth_of_field/depth_of_field_bokeh_quality=3
 environment/defaults/default_clear_color=Color(0.133333, 0.133333, 0.2, 1)

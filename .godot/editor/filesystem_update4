@@ -1,5 +1,4 @@
 res://main_options.tscn
 res://Scripts/WindowOptions/Helper.gd
-res://Scripts/WindowOptions/main.gd
+res://initLoader.gd
 res://Scripts/WindowOptions/WindowControl.gd
-res://Scripts/WindowOptions/DefaultOptions.gd
